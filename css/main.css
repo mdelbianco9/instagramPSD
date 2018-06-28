@@ -1,0 +1,95 @@
+
+body {
+	background-color: rgb(250, 250, 250);
+}
+
+
+/*Navbar*/
+nav {
+	position: fixed;
+	top:0px;
+	width: 100%;
+	height: 77px;
+	/*white-space: nowrap;*/
+	background-color: rgb(255, 255, 255);
+	padding: 0% 12%;
+	border-bottom: 1px solid rgba(0,0,0,.0975);
+	z-index: 5;
+	text-align: center;
+}
+
+.nav-left, .nav-center, .nav-right {
+	display: inline-block;
+}
+
+.nav-left h1, i {
+	display: inline-block;
+}
+
+.nav-left i {
+	/*position: absolute;
+	left: 0px;*/
+	border-right: 1px solid #262626;
+	padding-right: 15px;
+	font-size: 35px;
+}
+
+.nav-left h1 {
+	padding-left: 15px;
+	font-size: 27px;
+	font-weight: 300;
+	font-family: 'Pacifico', cursive;
+	color: rgb(38, 38, 38);
+}
+
+.nav-left i, h1:hover {
+	cursor: pointer;
+}
+
+.nav-center {
+	margin-left: 17%;
+	width: 215px;
+}
+
+.nav-center input {
+	width: 100%;
+	height: 28px;
+	padding: 7px;
+	text-align: center;
+	border-radius: 3px;
+	background: #fafafa;
+	border: solid 1px #dbdbdb;
+	font-size: 14px;
+    font-weight: 300;
+    color: #999;
+}
+
+/*Positions the Search Glass*/
+.nav-center span {
+	position: relative;
+	z-index: 2;
+	left: 70px;
+	top: 24px;
+	
+}
+
+.fa-search {
+	color: #999;
+	font-size: 11px;
+}
+
+.nav-right {
+	margin-left: 20%;
+	width: 180px;
+	text-align: center;
+}
+
+
+.fa-compass, .fa-heart, .fa-user {
+	margin: 0 15px;
+	font-size: 23px;
+}
+
+
+
+
